@@ -1,0 +1,188 @@
+.buy{
+background-color: white;
+border-radius: 10px;
+padding: 20px;
+}
+.buy-now{
+width: 100px;
+color: white;
+background-color: #834315;
+text-align: center;
+padding: 5px;
+align-items: center;
+border-radius: 5px;
+border: 2px solid #834315;
+}
+.money{
+    color: #C60000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.now{
+    text-decoration: none;
+    color: white;
+}
+.out{
+    font-size: 14px;
+}
+.group{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.rsvp {
+    display: flex;  
+    align-items: center;
+}
+.pend{
+   color: #FEC84B;
+  border: 1px solid #FFF2D3;
+   background-color: #FFF2D3;
+  border-radius: 5px;
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 300; 
+  font-size: 13px;
+}
+.dolar{
+    font-weight: bold;
+    color: #8F9BB3;
+}
+
+.year{
+  font-size: 15px;
+}
+.process{
+    color: #3366FF;
+  border: 1px solid #DAE3FF;
+   background-color: #DAE3FF;
+  border-radius:5px;
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 300; 
+  font-size: 13px;  
+}
+.media {
+    @media (max-width: 756px) {
+      margin-top: 5px;
+    }
+}
+.paid{
+    color: #2DA347;
+    border: 1px solid #E3FFE9;
+   background-color: #E3FFE9;
+  border-radius:5px;
+  padding: 4px 8px;
+  display: inline-block;
+  font-weight: 300; 
+  font-size: 13px;  
+}
+.bank2{
+    color: #FFECDF;
+    background-color: #FFECDF;
+    border: 2px solid #FFECDF;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.Bank{
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.band{
+    padding: 10px;
+    background-color: white;
+    border: 2px solid white;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+.bank2 {
+    font-size: 18px;
+    color: #333;
+  }
+
+  .band p {
+    margin: 5px 0;
+  }
+
+  .d-flex p {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .d-flex label {
+    cursor: pointer;
+  }
+
+  #file-name {
+    font-size: 14px;
+    color: #888;
+  }
+  .cancel{
+    border: 1px solid black;
+    background-color: white;
+    text-align:center ;
+  }
+  .submit{
+    border: 2px solid #834315;
+    background-color: #834315;
+    color: white;
+  }
+
+
+@media (max-width: 756px) {
+    .rsvp, .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+    }
+
+    
+    .pages p {
+        font-size: 14px;
+    }
+
+    #pageInfo, .prev, .next {
+        font-size: 12px;
+        margin: 5px 0; 
+    }
+
+    /* Adjust spacing between elements */
+    .d-flex .pages {
+        margin-bottom: 10px; 
+    }
+
+    .rsvp2 {
+        font-size: 14px; 
+    }
+}
+
+.file{
+  color: #834315;
+}
+.load{
+  padding: 10px;
+}

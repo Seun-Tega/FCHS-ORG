@@ -1,0 +1,153 @@
+
+.notice{
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.security{
+  text-decoration: none;
+  color: black;
+}
+
+.profiled1, .profiled2, .profiled3 {
+  transition: all 0.3s ease; 
+}
+
+.profiled1:hover {
+  background-color: #834315;
+  color: white;
+  padding: 5px;
+  width: 120px;
+  border: 2px solid #834315;  
+  border-radius: 5px;
+}
+
+.profiled2:hover {
+  background-color: #834315;
+  color: white;
+  padding: 5px;
+  width: 120px;
+  border: 2px solid #834315;
+  border-radius: 5px;
+}
+
+.profiled3:hover {
+  background-color: #834315;
+  color: white;  /* Hover color */
+  border-radius: 5px;
+  padding: 5px;
+  width: 120px;
+  border: 2px solid #834315;
+}
+.profiled1:hover{
+  color: white;
+}
+
+
+.inform{
+    margin-top: 20px;
+}
+.inform2{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.edit{
+  color: #FF0000;
+  margin-top: 3px;
+}
+.update{
+  border-bottom: 2px solid #E4E4E7;
+  padding: 5px;
+}
+.input-group{
+  width: 100%;
+  background-color:#FAFAFA ;
+  border-radius: 5px;
+  height: 50px;
+  border: 2px solid #FAFAFA;
+}
+.display{
+  margin-top: -10px;
+}
+.manage{
+  margin-bottom: 15px;
+}
+
+.cancel{
+    border: 1px solid black;
+    background-color: white;
+    text-align:center ;
+  }
+  .submit{
+    border: 2px solid #834315;
+    background-color: #834315;
+    color: white;
+  }
+  .update-password{
+    border: 2px solid #834315;
+    background-color: #834315;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .top{
+    margin-top: 20px;
+  }
+
+
+  /* Style the switch */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #0CAF60;
+}
+
+input:checked + .slider:before {
+  transform: translateX(18px);
+}
+
+#status{
+    color: #747681;
+    font-size: 13px;
+  }
+

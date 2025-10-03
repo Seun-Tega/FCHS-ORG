@@ -1,0 +1,56 @@
+.view{
+    text-decoration: none;
+    color: white;
+}
+.view2{
+    background-color: #834315;
+    border: 2px solid #834315;
+    border-radius: 10px;
+    width: 250px;
+    padding: 5px;
+    margin: auto;
+}
+.back{
+    padding: 10px;
+    border-radius: 10px;
+    /* Remove margin-left */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px; /* Fixed height */
+    
+}
+
+.img-fluid {
+    width: 250px;
+    height: 200px; /* Fixed height */
+    object-fit: cover; /* Ensures the image is cropped if it overflows the container */
+    border-radius: 20px;
+}
+
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .col-sm-6 {
+        flex: 0 0 50%; /* Columns take up 50% width on small screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .col-sm-6 {
+        flex: 0 0 100%; /* Columns take up 100% width on extra small screens */
+    }
+}
+.photo{
+    font-size: 12px;
+}
+.custom-spacing {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
