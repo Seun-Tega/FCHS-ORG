@@ -1,0 +1,64 @@
+.icon{
+    color: #CC7D13;
+}
+
+  .img-container {
+    width: 100%;         /* Fills the parent width */
+    max-width: 1200px;    /* Optional max width */
+    height: 300px;       /* Fixed height */
+    /* Center container */
+    overflow: hidden;    /* Hide overflow if image overflows */
+    position: relative;
+  }
+
+  .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   /* Makes sure image covers the full box */
+    display: block;
+  }
+  .fixed-image-container {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .fixed-image-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  } 
+  .impact{
+    color: #CC7D13;
+  }
+  .coming{
+    font-size: 15px;
+  }
+  .civic{
+    font-size: 11px;
+  }
+
+  .item {
+  height: auto;
+  min-height: 120px; /* adjust as needed */
+  overflow: hidden;
+}
+
+.card-text-wrapper {
+  overflow: hidden;
+}
+
+.card-text.expandable {
+  font-size: 0.85rem;
+  line-height: 1.2;
+  max-height: 2.6em; /* ~2 lines */
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  transition: max-height 0.3s ease;
+}
+
+.card-text.expandable.expanded {
+  max-height: 1000px; /* enough space to expand */
+}
+
+

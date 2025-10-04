@@ -1,0 +1,35 @@
+.font {
+  background-color: #CC7D13;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white; /* Optional for contrast */
+  font-size: 18px;
+}
+#submit{
+    background-color: #CC7D13;
+    border: 2px solid #CC7D13;
+    color: white;
+}
+@media (max-width:756px) {
+   #submit{
+    text-align: center;
+    align-items: center;
+   } 
+}
+
+@media (min-width: 768px) {
+  .form-action-wrapper {
+    flex-direction: column !important;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+.term{
+   color: #CC7D13; 
+}
+   
+
